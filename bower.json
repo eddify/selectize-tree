@@ -6,6 +6,10 @@
   "authors": [
     "eddy.kim@dollarshaveclub.com"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eddify/selectize-tree.git"
+  },
   "description": "selectize for data structures with an array of objects with references to only one parent",
   "keywords": [
     "select",
