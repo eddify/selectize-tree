@@ -29,5 +29,8 @@
     "app/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "selectize": "~0.11.2"
+  }
 }
