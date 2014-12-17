@@ -1,0 +1,29 @@
+{
+  "name": "selectize-tree",
+  "main": "selectize-tree.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/eddify/selectize-tree",
+  "authors": [
+    "eddy.kim@dollarshaveclub.com"
+  ],
+  "description": "selectize for data structures with an array of objects with references to only one parent",
+  "keywords": [
+    "select",
+    "ui",
+    "form",
+    "input",
+    "control",
+    "autocomplete",
+    "tagging",
+    "tag"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
