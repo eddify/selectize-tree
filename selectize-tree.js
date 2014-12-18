@@ -17,8 +17,7 @@
 //  { "id": 10, "name": "Existing Customer", "parent_id": 2 },
 // ]
 //
-// 
-// 
+
 
 (function() {
   Selectize.define('tree', function(options) {
@@ -145,15 +144,6 @@
       var original = self.setup;
       return function() {
         original.apply(this, arguments);
-        if (settings.value !== null) {
-          var currentSelectionRecord = self.findItem(self.collection, settings.valueField, settings.value);
-          var parentValue = currentSelectionRecord[settings.parentField];
-
-          if (parentValue) {
-            self.setOptionsByParentValue(parentValue);
-            self.setValue(currentSelectionRecord[settings.valueField]);
-          }
-        }
       };
     })();
 
